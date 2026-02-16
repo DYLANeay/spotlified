@@ -1,0 +1,56 @@
+/* Favorites - main hidden for now */
+.favorites-page main {
+    opacity: 0;
+}
+
+/* Favorites */
+.favorites {
+    width: 100%;
+    align-self: stretch;
+}
+
+.favorites h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #3a2a1a;
+    margin-bottom: 0.5rem;
+}
+
+.favorites h3 a {
+    color: #8a7a6a;
+    text-decoration: none;
+}
+
+.favorites h3 a:hover {
+    text-decoration: underline;
+}
+
+.favorites-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.favorites-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    border-bottom: 1px solid #c0b0a0;
+}
+
+.fav-title {
+    font-size: 1.1rem;
+    color: #3a2a1a;
+}
+
+.fav-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.fav-actions .material-symbols-outlined {
+    font-size: 28px;
+    color: #3a2a1a;
+    cursor: pointer;
+}

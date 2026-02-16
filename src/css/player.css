@@ -1,0 +1,64 @@
+/* Player */
+.player-cover {
+    width: 360px;
+    height: 360px;
+    background-color: #d5c4a1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.player-cover .material-symbols-outlined {
+    font-size: 160px;
+    color: #3a2a1a;
+}
+
+.player-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.player-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    border: 2px solid #c0b0a0;
+    background-color: #d5c4a1;
+    color: #3a2a1a;
+    cursor: pointer;
+}
+
+.player-btn:hover {
+    background-color: #c5b491;
+}
+
+.player-btn-play {
+    width: 92px;
+    height: 92px;
+}
+
+.player-btn .material-symbols-outlined {
+    font-size: 36px;
+}
+
+.player-btn-play .material-symbols-outlined {
+    font-size: 48px;
+}
+
+.player-progress {
+    width: 100%;
+    max-width: 420px;
+}
+
+.player-progress input[type="range"] {
+    width: 100%;
+    accent-color: #8a7a6a;
+}

@@ -1,0 +1,83 @@
+/* Artist Grid */
+.artist-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    width: 100%;
+    max-width: 500px;
+}
+
+.artist-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 1rem;
+    background-color: #d5c4a1;
+    border: 1px solid #c0b0a0;
+    border-radius: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.artist-card:hover {
+    background-color: #c5b491;
+}
+
+.artist-name {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #3a2a1a;
+}
+
+.artist-genre {
+    font-size: 0.8rem;
+    color: #8a7a6a;
+    margin-top: 0.25rem;
+}
+
+/* Artist Detail Page */
+.artist-detail {
+    width: 100%;
+    max-width: 500px;
+}
+
+.artist-detail .artist-genre {
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.song-list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.song-list li {
+    padding: 0.75rem 1rem;
+    background-color: #d5c4a1;
+    border: 1px solid #c0b0a0;
+    border-radius: 12px;
+    margin-bottom: 0.5rem;
+    color: #3a2a1a;
+}
+
+.btn-back {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid #c0b0a0;
+    border-radius: 20px;
+    background-color: #d5c4a1;
+    color: #5a4a3a;
+    font-family: Lato, sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-back:hover {
+    background-color: #c5b491;
+}

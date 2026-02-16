@@ -1,3 +1,51 @@
-body {
-  background-color: rgb(0, 128, 255);
+/* Playlists */
+.playlists {
+    width: 100%;
+    max-width: 500px;
+}
+
+.playlists h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #3a2a1a;
+    margin-bottom: 1rem;
+}
+
+.playlist-list {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.playlist-item {
+    padding: 0.5rem 1rem;
+    border: 1px solid #c0b0a0;
+    border-radius: 20px;
+    background-color: #d5c4a1;
+    color: #5a4a3a;
+    font-family: Lato, sans-serif;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.playlist-item:hover {
+    background-color: #c5b491;
+}
+
+/* Button */
+.btn-songs {
+    margin-top: auto;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid #c0b0a0;
+    border-radius: 20px;
+    background-color: #d5c4a1;
+    color: #5a4a3a;
+    font-family: Lato, sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.btn-songs:hover {
+    background-color: #c5b491;
 }
