@@ -10,7 +10,7 @@
 }
 
 .favorites h3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 700;
     color: #3a2a1a;
     margin-bottom: 0.5rem;
@@ -35,12 +35,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 0;
+    padding: 0.75rem 0;
     border-bottom: 1px solid #c0b0a0;
 }
 
 .fav-title {
-    font-size: 1.1rem;
+    font-size: 0.95rem;
     color: #3a2a1a;
 }
 
@@ -50,7 +50,22 @@
 }
 
 .fav-actions .material-symbols-outlined {
-    font-size: 28px;
+    font-size: 24px;
     color: #3a2a1a;
     cursor: pointer;
+}
+
+/* Tablet and up */
+@media (min-width: 768px) {
+    .favorites-list li {
+        padding: 1rem 0;
+    }
+
+    .fav-title {
+        font-size: 1.1rem;
+    }
+
+    .fav-actions .material-symbols-outlined {
+        font-size: 28px;
+    }
 }
