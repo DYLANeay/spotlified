@@ -1,5 +1,4 @@
-console.log("It works !");
+import { getArtists, getSongsByArtist, searchSongs } from './js/api.js';
+import { displayArtists } from './js/utils.js';
 
-const hi = () => {
-  console.log("hi");
-};
+displayArtists(await getArtists());
