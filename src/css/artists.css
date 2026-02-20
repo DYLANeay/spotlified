@@ -24,6 +24,14 @@
     background-color: #c5b491;
 }
 
+.artist-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+}
+
 .artist-name {
     font-size: 0.95rem;
     font-weight: 700;
@@ -79,6 +87,11 @@
 
     .artist-card {
         padding: 1.5rem 1rem;
+    }
+
+    .artist-img {
+        width: 100px;
+        height: 100px;
     }
 
     .artist-name {
